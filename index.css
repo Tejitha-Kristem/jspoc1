@@ -1,0 +1,14 @@
+  .bar{
+    background-image:linear-gradient(to right,yellow,violet) ;
+    color:brown ;
+    text-align: center;
+  }
+  .jumbo {
+    background-color: #86b8da; 
+  }  
+  #myfont{
+    color:white
+  }
+  .container{
+    background-image:linear-gradient(to bottom right,violet,yellow) ; 
+  }
