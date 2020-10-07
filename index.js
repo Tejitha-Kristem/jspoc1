@@ -1,8 +1,10 @@
 let counter = 0;
-function Submit() {
+let Submit=()=> {
     const userGuess = document.getElementById('num');
-    if (userGuess.value != '') {
-
+	if(isNaN(userGuess.value)){
+		alert("Only numbers");
+	}
+    else if (userGuess.value != '') {
         let res;
         let computers = Math.floor(Math.random() * 100) + 1;
         console.log(userGuess.value, computers);
